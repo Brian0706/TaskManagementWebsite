@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Mono';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(#DEDBD2, #090C9B);
+  background-attachment: fixed;
+}
+
+.Home h1 {
+  margin-left: 5%;
+}
+
+.Bulletin {
+  background-image: url("background1.jpg");
+  width: 20%;
+  height: 10%;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  background-size: cover;
+  display: inline-block;
+  color: #FBFFF1;
+}
+
+.Bulletin .title {
+  text-decoration: none;
+  color: #DEDBD2;
+}
+
+.BulletinInfo {
+  position: relative;
+}
+
+.BulletinInfo .back {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  color: #FBFFF1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
