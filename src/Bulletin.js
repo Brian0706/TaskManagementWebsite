@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const Bulletin = ({ bulletin }) => {
+const Bulletin = ({ user, bulletin }) => {
     return (<div className="Bulletin">
-        <Link to={`/tasks/${bulletin.id}`} className="title">
+        <Link to={`/tasks/${user}/${bulletin._id}`} className="title">
             <h2>{bulletin.title}</h2>
         </Link>
     </div>);

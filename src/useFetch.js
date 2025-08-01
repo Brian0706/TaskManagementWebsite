@@ -36,7 +36,7 @@ const useFetch = (url) => {
     }, [url])
 
     //Want to return the properties of the hook to use in other places
-    return { data, isPending, error }
+    return { data, isPending, error, setData }
 }
 
 export default useFetch;
